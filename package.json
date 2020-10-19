@@ -12,7 +12,7 @@
   "author": "Your Name <info@example.com>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "@todesktop/cli": "^0.18.2",
+    "@todesktop/cli": "^0.21.1",
     "electron": "10.1.1"
   },
   "dependencies": {
