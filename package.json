@@ -16,6 +16,6 @@
     "electron": "10.1.1"
   },
   "dependencies": {
-    "@todesktop/runtime": "^0.2.7"
+    "@todesktop/runtime": "^0.3.1"
   }
 }
