@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@todesktop/runtime"
+    versions:
+    - 0.5.3
+  - dependency-name: "@todesktop/cli"
+    versions:
+    - 0.22.5
+    - 0.22.6
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
